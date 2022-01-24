@@ -13,7 +13,7 @@
 @echo.
 @echo.
 @echo.   p.s. nongbaobao did nothing for this script idk why i added him to credit lol
-choice /C 123 /N /M "Enter mode here:"
+set /p choice = Enter mode here: 
 
 if '%choice%'=='1' goto 1
 if '%choice%'=='3' goto end
